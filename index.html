@@ -5,10 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monthly Account</title>
+    
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
 </head>
 <body>
-    <h1>Monthly Account</h1>
+    <header>
+        <h1 class="text-center p-4 text-danger" >Monthly Account</h1>
+    </header>
+    <main>
+      <section class="container">
+         <section>
+             <div class="image" >
+            <img src="Money-Calendar.jpg" alt="">
+        </div>
+         </section>
+       <section>
+         <div class="flexible">
+            <h6 class="text-center my-4">Income</h6>
+            <div class="container my-3">
+                <p class="margin ">Income:</p>
+            <button class="button">$0</button>
+                 </div>
+                 <h6 class="text-center my-4">Expenses</h6>
+                 <div >
+                    <div class="container my-3">
+                <p class="margin">Food:</p>
+            <button class="button">$0</button>
+               </div>
+                <div class="container my-3">
+                <p class="margin">Rant:</p>
+            <button class="button">$0</button>
+               </div>
+                <div class="container my-3">
+                <p class="margin">Cloth:</p>
+            <button class="button">$0</button>
+               </div>
+                 </div>
+                 
+        </div>
+       </section>
+      </section>
+    </main>
     <script src="monthly-account.js"></script>
 </body>
 </html>

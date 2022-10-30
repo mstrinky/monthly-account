@@ -1,0 +1,19 @@
+.image img{
+    width: 50%;
+    
+    
+}
+.container{
+    display:flex;
+}
+
+.margin{
+    margin-right: 10px;
+}
+.button{
+    padding-left: 50px;
+    padding-right:50px;
+}
+.rant{
+    margin-right: 10px;
+}
