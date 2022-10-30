@@ -15,39 +15,50 @@
         <h1 class="text-center p-4 text-danger" >Monthly Account</h1>
     </header>
     <main>
-      <section class="container">
+      <section class="container mb-5">
          <section>
              <div class="image" >
             <img src="Money-Calendar.jpg" alt="">
         </div>
          </section>
-       <section>
-         <div class="flexible">
-            <h6 class="text-center my-4">Income</h6>
+       <section class="flexible py-0 mb-5">
+         <div>
+            <h5 class="text-center my-0">Income</h5>
             <div class="container my-3">
                 <p class="margin ">Income:</p>
-            <button class="button">$0</button>
+            <button class="button text-white">$0</button>
                  </div>
-                 <h6 class="text-center my-4">Expenses</h6>
+                 <h5 class="text-center my-4">Expenses</h5>
                  <div >
                     <div class="container my-3">
                 <p class="margin">Food:</p>
-            <button class="button">$0</button>
+            <button class="button text-white">$0</button>
                </div>
                 <div class="container my-3">
-                <p class="margin">Rant:</p>
-            <button class="button">$0</button>
+                <p class="margin">Rant :</p>
+            <button class="button text-white">$0</button>
                </div>
                 <div class="container my-3">
                 <p class="margin">Cloth:</p>
-            <button class="button">$0</button>
+            <button class="button text-white">$0</button>
                </div>
                  </div>
-                 
-        </div>
+               <button id="calculate" class="my-3 py-2 bg-primary text-white mx-5">Calculate</button>
+               <h5 class="my-3 text-center">Total Expenses: $0</h5>
+               <h5 class="my-3 text-center">Balance: $0</h5>
+
+                <div class="container my-3">
+                <p class="margin">Save:</p>
+            <button class="px-4  text-white button ">$0 %</button> 
+            <button  class=" bg-primary text-white px-5 mx-2">Save</button>
+               </div>
+               <h5 class=" text-center">Saving Amount: $0</h5>  
+               <h5 class=" text-center my-3">Remaining Balance: $0</h5>
+              </div>
        </section>
       </section>
     </main>
+    
     <script src="monthly-account.js"></script>
 </body>
 </html>
